@@ -1,5 +1,8 @@
 # 2024-NIKL-DCS
-국립국어원 AI 말평 일상 대화 요약
+- 국립국어원 AI 말평 일상 대화 요약 '모델뒤에사람있어요' 팀 <br><br>
+![image](https://github.com/user-attachments/assets/e8b65f98-bd8a-4bcf-81d9-549e19cee408)
+
+
 
 # 실행 방법
 ## 학습

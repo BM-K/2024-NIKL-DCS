@@ -1,0 +1,8 @@
+name_or_path: sh2orc/Llama-3.1-Korean-8B-Instruct
+tokenizer_name_or_path: null
+archive: null
+block_name: LlamaDecoderLayer
+
+policy_dtype: bfloat16
+fsdp_policy_mp: null
+reference_dtype: float16

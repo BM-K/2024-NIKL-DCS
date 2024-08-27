@@ -1,0 +1,8 @@
+name_or_path: LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct
+tokenizer_name_or_path: null
+archive: null
+block_name: ExaoneDecoderLayer
+
+policy_dtype: bfloat16
+fsdp_policy_mp: null
+reference_dtype: bfloat16

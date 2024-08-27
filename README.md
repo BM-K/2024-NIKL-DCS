@@ -3,8 +3,8 @@
 ![image](https://github.com/user-attachments/assets/e8b65f98-bd8a-4bcf-81d9-549e19cee408)
 
 제안된 모델은 pre-trained language model을 fine-tuning한 모델로 모델이 특정 지식이나 스킬을 획득하도록 도와주게 설계되었습니다.
-추후 연구에서는 이러한 지식이나 스킬을 사람의 선호와 잘 조화되도록 만들기 위해 Direct Preference Optimization과 같은 기법을 사용하여 학습할 예정입니다.<br><br>
-현재 업로드된 소스 코드의 경우 인간 선호 데이터셋만 구축 된다면 위 기법을 적용할 수 있도록 작성되었으며, 추후 자동으로 학습될 수 있도록 고도화 예정입니다.
+추후 연구에서는 이러한 지식이나 스킬을 사람의 선호와 잘 조화되도록 만들기 위해 [Direct Preference Optimization](https://arxiv.org/abs/2305.18290)과 같은 기법을 사용하여 학습할 예정입니다.<br><br>
+현재 업로드된 소스 코드의 경우 인간 선호 데이터셋만 구축 된다면 위 기법을 적용할 수 있도록 작성되었으며, 추후 자동으로 적용되어 학습될 수 있도록 고도화 예정입니다.
 
 # 실행 방법
 ## 준비

@@ -1,8 +1,0 @@
-name_or_path: Qwen/Qwen2-7B-Instruct
-tokenizer_name_or_path: null
-archive: null
-block_name: Qwen2DecoderLayer
-
-policy_dtype: bfloat16
-fsdp_policy_mp: null
-reference_dtype: bfloat16

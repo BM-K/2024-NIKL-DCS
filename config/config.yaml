@@ -18,7 +18,7 @@ fsdp_port: null
 
 # which dataset(s) to train on; can pass a list like datasets=[hh,shp]
 datasets:
-- DCS
+  - DCS
 
 # wandb configuration
 wandb:
@@ -93,6 +93,8 @@ eval_every: 125
 minimum_log_interval_secs: 60.0
 
 defaults:
-- _self_
-- model: blank_model_fp32 # basic model configuration
-- loss: sft # which loss function, either sft or dpo (specify loss.beta if using dpo)
+  - _self_
+  - model: blank_model_fp32 # basic model configuration
+  - loss: sft # which loss function, either sft or dpo (specify loss.beta if using dpo)
+
+token: None

@@ -55,7 +55,9 @@ summary = tokenizer.decode(outputs[0][source.shape[-1]:], skip_special_tokens=Tr
 ## 학습 및 평가 방법
 
 ### 준비
-
+[![Python](https://img.shields.io/badge/python-3.9-blue?logo=python&logoColor=FED643)](https://www.python.org/downloads/release/python-390/)
+[![Pytorch](https://img.shields.io/badge/pytorch-2.1.2-red?logo=pytorch)](https://pytorch.org/get-started/previous-versions/)
+[![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers|4.42.3-pink?color=FF33CC)](https://github.com/huggingface/transformers)
 ```
 # 필요 라이브러리를 설치합니다.
 pip install -r requirements.txt

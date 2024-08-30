@@ -34,6 +34,7 @@ def get_dcs(split: str, silent: bool = False, cache_dir: str = None, tokenizer=N
             chat = "\n".join(chat)
             
             question = f"[Question]\n위 {', '.join(inp['subject_keyword'])} 주제에 대한 대화를 요약해주세요."
+            chat = chat + "\n\n" + question
             
             message = [
                 {"role": "system", "content": PROMPT},

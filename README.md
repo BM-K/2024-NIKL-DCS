@@ -92,7 +92,7 @@ python inference/run_test.py --output result.json --model_id model_ckpt/root/exa
 ## Citing
 ```
 @inproceedings{exaone_sft_dcs,
-  title={EXAONE Dialogue Coversation Summarization Model},
+  title={EXAONE Daily Coversation Summarization Model},
   author={Bong-Min Kim and Gyu-Min Park},
   year={2024},
   url={https://huggingface.co/BM-K/EXAONE-3.0-7.8B-Daily-Conversation-Summary}

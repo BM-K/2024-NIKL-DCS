@@ -54,7 +54,7 @@ outputs = model.generate(
 summary = tokenizer.decode(outputs[0][source.shape[-1]:], skip_special_tokens=True).replace('\n',' ').replace('  ', ' ')
 ```
 
-# 실행 방법
+# 학습 및 평가 방법
 
 ## 준비
 

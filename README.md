@@ -66,7 +66,7 @@ pip install -r requirements.txt
 dcs_2024_data
 ├── 일상대화요약_train.json
 ├── 일상대화요약_dev.json
-└── 일상대화요약_train.json
+└── 일상대화요약_test.json
 ```
 
 huggingface에서 [EXAONE](https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct) access token을 [발급](https://huggingface.co/docs/hub/security-tokens)받습니다.

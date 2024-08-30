@@ -87,7 +87,7 @@ CUDA_VISIBLE_DEVICES=0,1,2 python -m train model=exaone datasets=[DCS] loss=sft 
 python inference/run_test.py --output result.json --model_id model_ckpt/root/exaone_sft_2024-08-26_16-28-10_430889/step-992/ --device cuda:0
 ```
 
-`model_id` 변수에 모델 체크포인트 경로를 입력한 뒤 실행하면 소스코드 폴더에 `output` 파일이 생성되고, 해당 파일 제출 시 순위표(리더보드)에 성적이 반영됩니다.
+`model_id` 변수에 모델 체크포인트 경로(dev loss가 낮은 체크포인트들)를 입력한 뒤 실행하면 소스코드 폴더에 `output` 파일이 생성되고, 해당 파일 제출 시 순위표(리더보드)에 성적이 반영됩니다.
 
 ## Citation
 ```

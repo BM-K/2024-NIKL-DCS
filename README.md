@@ -89,9 +89,9 @@ python inference/run_test.py --output result.json --model_id model_ckpt/root/exa
 
 `model_id` 변수에 모델 체크포인트 경로를 입력한 뒤 실행하면 소스코드 폴더에 `output` 파일이 생성되고, 해당 파일 제출 시 순위표(리더보드)에 성적이 반영됩니다.
 
-## Citing
+## Citation
 ```
-@inproceedings{exaone_sft_dcs,
+@misc{exaone_sft_dcs,
   title={EXAONE Daily Coversation Summarization Model},
   author={Bong-Min Kim and Gyu-Min Park},
   year={2024},

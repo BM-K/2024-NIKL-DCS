@@ -23,7 +23,6 @@ class CustomDataset(Dataset):
                 chat.append(f"화자{speaker}: {utterance}")
             
             chat = "\n".join(chat)
-
             question = f"[Question]\n위 {', '.join(inp['subject_keyword'])} 주제에 대한 대화를 요약해주세요."
             
             max_len = 3584
@@ -34,8 +33,6 @@ class CustomDataset(Dataset):
                 chat = tokenizer.decode(t_chat, skip_special_tokens=True)
 
             chat = chat + "\n\n" + question
-            
-          
             return chat
         
         for example in data:

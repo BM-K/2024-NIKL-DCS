@@ -825,9 +825,7 @@ class TensorParallelTrainer(BasicTrainer):
         rank0_print("Sharding policy...")
 
         self.policy = tp.tensor_parallel(policy, sharded=False)
-        # for name, param in self.policy.named_parameters():
-        #    print(f"Layer: {name} | Requires Grad: {param.requires_grad}")
-        # exit()
+
         if config.loss.name in {"dpo", "ipo"}:
             rank0_print("Sharding reference model...")
             self.reference_model = tp.tensor_parallel(reference_model, sharded=False)
